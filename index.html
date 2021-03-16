@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Mock 3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2 class="Title">
+        Madding
+    </h2>
+    
+        <form action="">
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" placeholder="username"><br><br>
+            <label for="pwd">Password :</label>
+            <input type="password" id="pwd" name="pwd" placeholder="password"><br><br>
+            <input type="submit" value="Login" onclick="funLogin"><br><br>
+        </form>
+    <table id="myData">
+        <thead>
+            <th>No</th>
+            <th>Kegiatan</th>
+            <th>Hari</th>
+            <th>Poster</th>
+            <th colspan="2">Act</th>
+        </thead>
+        <tbody id="Aktifitas"></tbody>
+    </table>
+    <div id="LoginStatus"></div>
+    <div id="logout"></div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
